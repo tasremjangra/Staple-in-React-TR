@@ -40,7 +40,7 @@
     background-color:white;
 }
 .Site_section{
-  width:1048px;
+  width:1035px;
   max-height: 29px;
   color: #444444;
   border-right: 1px solid #e7e7e7;
@@ -179,7 +179,8 @@ a{
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   position: relative;
-  top: 2px;
+  top: -38px;
+  right: -361px;
 }
 .fa.fa-search{
   font-size: 15px;
@@ -260,17 +261,406 @@ a{
   height: 46px;
   width: 100%;
   display: flex;
-  background-color: red;
+  background-color: ;
+  border-bottom: 1px solid #e7e7e7;
+  border-top: 1px solid #e7e7e7;
 }
 .Navigation_Product{
   width: 863px;
-  background-color: green;
+  background-color: ;
   margin-left: 370px;
   display: flex;
   list-style-type: none;
 }
-.Navigation_list{
+.Navigation_list li a{
+   display: inline-block;
    list-style-type: none;
+   padding: 20px;
+   height: 59px;
+   margin-left: 20px;
+   font-size:13px; 
+}
+.Navigation_list li{
+  float: left;
+  list-style-type: none;
+  font-family: sans-serif;
+}
+.Navigation_list{
+  position: relative;
+    left: -26px;
+    top: -35px;
+}
+.Navigation_list li a:hover{
+  color: #c00;
+  text-decoration: underline;
+}
+.Big_Img{
+  min-height: 264px;
+  width: 100%;
+  background-image: url('https://assets.staples-static.com/sbd/cre/products/home-banners/20181104/images/dg17839_c1_paper_32_1764x262.jpg');
+  background-position-x:center; 
+  padding: 0px;
+  background-size: 1412px 264px;
+  background-repeat: no-repeat;
+  margin-top: 6px;
+}
+.Empty_Row{
+   height: 13px;
+  background-color:;
+}
+.Last_Header{
+  height: 56px;
+  background-color: #444444;
+  width: 1412px;
+  margin: auto;
+  display: flex;
+}
+.Welcome{
+  height: 36px;
+  width: 300px;
+  background-color:;
+  float: left;
+  position: relative;
+  left: -4px;
+  top: -9px;
+  color: white;
+}
+.Center{
+  height: 36px;
+  width: 300px;
+  background-color:;
+  margin: auto;
+  position: relative;
+  left: -69px;
+  top: -5px;
+}
+.Text1 a{
+  line-height: 18px;
+  font-family: bold;
+  color: #fff;
+  font-size: 13px;
+}
+.Text1:hover{
+  text-decoration: underline;
+}
+.Sing_In{
+  position: relative;
+  top: 11px;
+  left: -48px;
+  width: 146px;
+  height: 36px;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  background-color: #fff;
+  color: #cc0000;
+}
+.Sing_In:hover{
+   background-color:#cc0000;
+  color: #fff; 
+}
+.Create{
+   position: relative;
+  top: 11px;
+  left: -33px;
+  width: 146px;
+  height: 36px;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  background-color:#444444;
+  color: white;
+}
+.Create:hover{
+  background-color:#cc0000;
+  color: #fff; 
+}
+
+.Mid_Part{  
+  height: 252px;
+  width: 1400px;
+  margin: auto;
+  background:linear-gradient(180deg,#fff 85%,#e7e7e7);
+}
+.Mid_Part_left{
+  float: left;
+  height: 242px;
+  width:865px;
+  margin-left: 13px; 
+ background-image: url('https://assets.staples-static.com/sbd/cre/products/home-banners/20181104/images/dg17839_c2_pms_924x252.jpg');
+
+}
+.Mid_Part_left:hover{
+  border: 1px solid #e7e7e7;
+}
+.Text2{
+    font-family: bold;
+    font-size: 22px;
+    color: #fff;
+    letter-spacing: .1px;
+    padding-left: 15px;
+    float:left;
+    padding-top: 0px;
+}
+.Text3{
+    color: #fff;
+    font-size: 13px;
+    padding-left: 47px;
+    padding-block-start: 30px;
+    position: relative;
+    left: -363px;
+    top: -13px;
+}
+
+.Shop-now{
+  position: relative;
+  top: 86px;
+  left: -346px;
+  width: 146px;
+  height: 36px;
+  border: 1px solid gray;
+  border-radius: 3px;
+  background-color:red;
+  color: white;
+}
+.Shop-now:hover{
+  background-color:#ffffff;
+  color: #cc0000; 
+}
+.Mid_Part_Right{
+    float: right;
+    height: 242px;
+    width: 463px;
+    background-color: red;
+    position: relative;
+    top: 0px;
+    right: 7px;
+    background-image: url('https://assets.staples-static.com/sbd/cre/products/home-banners/20181021/images/dg17690_c3_weekly_ad_552x252.jpg');
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    margin-right:10px; 
+
+}
+.Mid_Part_Right:hover{
+  border: 1px solid #e7e7e7;
+}
+.Text4{
+    font-family: HelveticaNeueCondensed-Bold;
+    font-size: 22px;
+    color: #444;
+    position: relative;
+    left: -151px;
+    top: -4px;
+  }
+
+.Text5{
+    color: #444;
+    font-size: 13px;
+    position: relative;
+    right: 142px;
+    top: -21px;
+}
+.View-Weekly-Ad{
+  position: relative;
+  top: 53px;
+  left: -150px;
+  width: 146px;
+  height: 36px;
+  border: 1px solid #8080800a;
+  border-radius: 3px;
+  background-color:red;
+  color: white;
+}
+
+.View-Weekly-Ad:hover{
+  background-color:#ffffff;
+  color: #cc0000; 
+  border: 1px solid #cc0000;
+}
+.Popular_Categories{
+  height: 50px;
+  width: 1400px;
+  margin:auto;
+  margin-top: 10px;
+  background-color:;
+}
+.Text6{
+   float: left;
+    padding-left: 12px;
+    padding-top: 10px;
+    font-size: 1.85em;
+    max-height: 24px;
+    font-family: sans-serif;
+    line-height: 1em;
+    display: inline-block;
+    position: relative;
+    top: -23px;
+}
+.Popular_Categories_Items{
+   height: 370px;
+    margin: auto;
+    width: 1400px;
+    background: linear-gradient(180deg,#fff 85%,#e7e7e7);
+    display: inline-block;
+}
+.Category-Img1{
+  height: 360px;
+    float:left;
+    width: 25%;
+    background-color:;
+}
+.Gallery {
+    margin: 5px;
+    float: left;
+    width: 337px;
+    height: 354px;
+    background-color: #ffffff;
+}
+.Gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.Desc {
+    text-align: left;
+    padding-left: 10px;
+}
+.Text7 {
+  display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #444;
+    cursor: pointer;
+    margin-top: -9px;
+}
+.Fontsize{
+  font-family: bold;
+  margin-bottom: -4px;
+}
+.Fontsize:hover{
+  text-decoration: underline;
+}
+.Text7:hover{
+  text-decoration: underline;
+}
+.Gallery:hover{
+  border: 2px solid #e7e7e7;
+}
+
+.View-All{
+   text-decoration: underline;
+  color: #444;
+  height: 24px;
+  display: inline-block;
+  position: relative;
+    top: 17px;
+    left: -371px;
+    font-size: 17px;
+}
+
+.Save_more_with_Staples_Brand_Products_items{
+  height: 360px;
+    float:left;
+    width: 16.6%;
+}
+
+.Gallery1 {
+    margin: 5px;
+    float: left;
+    width: 225px;
+    height: 354px;
+    background-color: #ffffff;
+}
+.Gallery1:hover{
+  border:2px solid #e7e7e7;  
+}
+.Gallery1 img {
+   width: 75%;
+    height: auto;
+    padding: 14px 16px;
+    margin-left: 30px;
+}
+
+.Desc1 {
+    text-align: left;
+    padding-left: 10px;
+}
+.Text8 {
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #444;
+    cursor: pointer;
+}
+.Transition{
+    text-align: left;
+    height: 50px;
+    margin-top: -48px;
+}
+.Text-Transition{
+  height: 44px;
+  position: relative;
+    top: 20px;
+}
+.Text9 {
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #444;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+.fa.fa-star{
+
+  color: #666;
+  width: 13px;
+  font-size: 10px;   
+}
+.fa.fa-star-half{
+  color: #666;
+  width: 13px;
+  font-size: 10px;
+}
+.Text10{
+  color: #444;
+    font-size: .85em;
+    padding-left: 12px;
+    font-family: HelveticaNeueCondensed-Black;
+    height: 12px;
+}
+.Text11{
+  color: #444;
+    font-size: 1.85em;
+    padding-left: 12px;
+    font-family: HelveticaNeueCondensed-Black;
+    height: 12px;
+}
+.Box{
+  font-size: 11px;
+ line-height: 28px;
+}
+.Number{
+  font-size: 10px;
+}
+.Rating{
+  position: relative;
+    top: -10px;
+}
+.Rate{
+      position: relative;
+    top: -22px;
+}
+.Text_Clr{
+  color: #0e7477;
+}
+.Big_Img_2{
+  min-height: 264px;
+  width: 100%;
+  background-image: url('https://assets.staples-static.com/sbd/cre/products/home-banners/20181104/images/dg17839_c4_pms_1764x300.png');
+  background-position-x:center; 
+  padding: 0px;
+  background-size: 1412px 264px;
+  background-repeat: no-repeat;
+  margin-top: 10px;
 }
 @keyframes App-logo-spin {
   from {
