@@ -13,6 +13,9 @@ import Save_more_with_Staples_Brand_Products_items from './Save_more_with_Staple
 import Customers_Top_Picks from './Customers_Top_Picks'
 import Customers_Top_Picks_items from './Customers_Top_Picks_items'
 import Big_Img_2 from './Big_Img_2'
+import Sponsored_Products from './Sponsored_Products'
+import Sponsored_Products_items from'./Sponsored_Products_items'
+import Footer from './Footer'
 
 
 class App extends Component {
@@ -32,6 +35,9 @@ class App extends Component {
         <Customers_Top_Picks />
         <Customers_Top_Picks_items />
         <Big_Img_2 />
+        <Sponsored_Products />
+        <Sponsored_Products_items />
+        <Footer />
       </div>
     );
   }

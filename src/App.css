@@ -662,6 +662,218 @@ a{
   background-repeat: no-repeat;
   margin-top: 10px;
 }
+
+.Footer{
+  height: 600px;
+  width: 100%;
+  background-color: green;
+}
+.Footer_first{
+  background-color: #444444;
+  width:100%;
+  height:397px;
+  display: flex;
+}
+.Footer_first_Block_1{
+  background-color:;
+  height: 332px;
+  width: 315px;
+  margin-left: 77px;
+  position: relative;
+  top: 24px;
+}
+.Customer_Service{
+  color: white;
+  text-align: left;
+  position: relative;
+  top: -23px;
+  font-size: 18px;
+}
+.Links{
+    color: white;
+    float:left;
+    position: relative;
+    top: -38px;
+    font-size: 13px;
+    display: block;
+}
+.Links:hover{
+  text-decoration: underline;
+}
+.Footer_Mid{
+  height: 110px;
+    width: 100%;
+    background: #666;
+}
+.Social_Media{
+  height: 110px;
+  width:300px;
+  float: left;
+  margin:10px;
+}
+.Download{
+  height: 110px;
+  width:300px;
+  float: left;
+  margin:40px;
+  margin-top: 10px;
+}
+.Subscribe {
+    height: 95px;
+    width: 580px;
+    float: right;
+    margin: 10px;
+    margin-right: 160px;
+}
+.Text_Align{
+  height:20px;
+  width:300px;
+  margin-left: 20px;
+}
+.Input_Text{
+  padding-top:10px;
+  height:30px;
+  width:300px;
+}
+.Subscribe1 {
+    height: 50px;
+    width: 530px;
+    margin-left: 20px;
+    margin-top: 13px;
+}
+#Input2 {
+    height: 36px;
+    font-size: 14px;
+    width: 375px;
+    margin-left: 2px;
+    border: 1px solid #ffffff;
+    padding-left: 10px;
+    border-radius: 3px;
+}
+.Button1 {
+    position: relative;
+    width: 121px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    background-color: #ffffff;
+    color: #cc0000;
+    left: 10px;
+}
+.Button1:hover {
+  background-color:#cc0000;
+  color:#ffffff;
+}
+.Icon {
+    height: 50px;
+    width: 250px;
+    margin-left: 32px;
+    margin-top: 6px;
+}
+.fa.fa-facebook {
+  background: #ffffff;
+  color: #666;
+  font-size: 27px;
+  padding:6px;
+  padding-bottom: 0px;
+  width: 25px;
+  border: 1px solid width;
+  border-radius: 2px;
+
+}
+.fa.fa-twitter {
+ background: #ffffff;
+  color: #666;
+  font-size: 27px;
+  padding:6px;
+  padding-bottom:0px;
+  border: 1px solid width;
+  border-radius: 2px;
+}
+.fa.fa-pinterest {
+  background: #ffffff;
+  color: #666;
+  font-size: 26px;
+  padding:8px;
+  padding-bottom: 0px;
+  border-radius: 53px;
+}
+.fa.fa-linkedin {
+  background: #ffffff;
+  color: #666;
+  font-size: 27px;
+  padding:6px;
+  padding-bottom: 0px;
+  border: 1px solid width;
+  border-radius: 2px;
+}
+.fa.fa-apple {
+  background: #ffffff;
+  color: #666;
+  font-size: 28px;
+  padding:6px;
+  padding-bottom: 0px;
+  border-radius: 50px;
+}
+.fa.fa-android {
+  background: #ffffff;
+  color: #666;
+  font-size: 28px;
+  padding:6px;
+  padding-bottom: 0px;
+  border-radius: 50px;
+}
+.Join_Us{
+  color: white;
+  position: relative;
+    right: 60px;
+    top: -14px;
+}
+.Download_Our_Mobile_App{
+  color: white;
+  position: relative;
+  right: -48px;
+    top: -12px;
+}
+.Staples_Offers{
+  color: white;
+  margin-left: -170px;
+    margin-top: 6px;
+}
+
+.Footer_Last{
+  height: 100px;
+  width: 100%;
+  background-color: #444444;
+}
+.Text15{
+   color: #fff;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    
+}
+.Content-Last{
+  margin: auto;
+  width: 999px;
+  height: 50px;
+  position: relative;
+  left: -18px;
+  top: -42px;
+  display: inline-block;
+}
+.Footer-Link{
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 18px;
+}
+.Text20{
+  color: #fff;
+}
+.Footer-Link:hover{
+  text-decoration:underline;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
